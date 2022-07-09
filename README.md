@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.NegativeBinomial;
+})();
 })();
 </script>
 ```
@@ -289,6 +291,7 @@ y = nbinomial.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var nbinomial = new NegativeBinomial( 10.0, 0.4 );
 
@@ -304,6 +307,7 @@ var s2 = nbinomial.variance;
 var y = nbinomial.cdf( 8.0 );
 // returns ~0.135
 
+})();
 })();
 </script>
 </body>
