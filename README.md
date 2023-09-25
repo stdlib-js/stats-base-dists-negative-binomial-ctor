@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor/tags). For example,
+
+```javascript
 import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@v0.1.0-deno/mod.js';
 ```
 
@@ -270,7 +275,7 @@ y = nbinomial.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@v0.1.0-deno/mod.js';
+import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@deno/mod.js';
 
 var nbinomial = new NegativeBinomial( 10.0, 0.4 );
 
