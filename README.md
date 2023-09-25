@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@esm/index.mjs';
+import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@v0.1.0-esm/index.mjs';
 ```
 
 #### NegativeBinomial( \[r, p] )
@@ -275,7 +275,7 @@ y = nbinomial.quantile( 1.9 );
 <body>
 <script type="module">
 
-import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@esm/index.mjs';
+import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@v0.1.0-esm/index.mjs';
 
 var nbinomial = new NegativeBinomial( 10.0, 0.4 );
 
