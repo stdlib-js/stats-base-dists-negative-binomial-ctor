@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor/tags). For example,
+
+```javascript
 import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@v0.1.0-esm/index.mjs';
 ```
 
@@ -275,7 +280,7 @@ y = nbinomial.quantile( 1.9 );
 <body>
 <script type="module">
 
-import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@v0.1.0-esm/index.mjs';
+import NegativeBinomial from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-negative-binomial-ctor@esm/index.mjs';
 
 var nbinomial = new NegativeBinomial( 10.0, 0.4 );
 
