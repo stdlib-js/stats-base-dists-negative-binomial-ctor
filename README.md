@@ -342,6 +342,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -384,6 +389,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [umd-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor/tree/umd
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor/tree/esm
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-negative-binomial-ctor/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-negative-binomial-ctor/main/LICENSE
 
 [negative-binomial-distribution]: https://en.wikipedia.org/wiki/Negative_binomial_distribution
 
