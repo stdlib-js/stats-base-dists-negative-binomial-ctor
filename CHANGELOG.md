@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-21)
+## Unreleased (2026-01-17)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`610a4d0`](https://github.com/stdlib-js/stdlib/commit/610a4d02b5171f87c334c586160a1b159d8de7ee) - **bench:** update random value generation [(#9783)](https://github.com/stdlib-js/stdlib/pull/9783) _(by Harsh Yadav)_
 -   [`80b5969`](https://github.com/stdlib-js/stdlib/commit/80b5969a77342302214b80d19ffb325f042c92d2) - **docs:** fix copy & paste error _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
@@ -39,9 +40,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Gopi Kishan
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
